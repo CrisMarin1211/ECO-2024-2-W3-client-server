@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>PLAYER</title>
+		<style>
+			/* body {
+				font-family: Arial, sans-serif;
+				text-align: center;
+			}
+			#data-container {
+				margin-top: 20px;
+			}
+			.item {
+				margin-bottom: 10px;
+			}
+			.move-button {
+				cursor: pointer;
+				margin: 10px;
+			}
+			img {
+				width: 60px;
+				border: 2px solid #ccc;
+				border-radius: 10px;
+			} */
+		</style>
+	</head>
+	<body>
+		<h1>PLAYER</h1>
+		<div class="form-search-nameplayer">
+			<form id="form-nameplayer">
+				<input type="text" id="player-name" placeholder="Ingresa tu nombre" required />
+				<div>
+					<img
+						src="https://static.vecteezy.com/system/resources/previews/012/896/738/original/stone-transparent-background-free-png.png"
+						alt="Piedra"
+						data-move="Piedra"
+						class="move-button"
+					/>
+					<img
+						src="https://png.pngtree.com/png-clipart/20231004/original/pngtree-crumpled-paper-isolated-png-image_13098065.png"
+						alt="Papel"
+						data-move="Papel"
+						class="move-button"
+					/>
+					<img
+						src="https://static.vecteezy.com/system/resources/previews/009/664/151/non_2x/scissor-icon-transparent-free-png.png"
+						alt="Tijera"
+						data-move="Tijera"
+						class="move-button"
+					/>
+				</div>
+			</form>
+		</div>
+		<div id="data-container"></div>
+		<script src="index.js"></script>
+	</body>
+</html>

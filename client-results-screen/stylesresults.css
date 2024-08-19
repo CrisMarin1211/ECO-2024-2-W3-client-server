@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+}
+#data-container {
+	margin-top: 20px;
+}
+.item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+img {
+	width: 80px; /* Ajusta este valor para cambiar el tamaño */
+	height: 80px; /* Ajusta este valor para cambiar el tamaño */
+	border-radius: 10px;
+}
+
+#timer {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}

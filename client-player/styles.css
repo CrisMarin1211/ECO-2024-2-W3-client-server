@@ -1,0 +1,18 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+#data-container {
+	margin-top: 20px;
+}
+.item {
+	margin-bottom: 10px;
+}
+.move-button {
+	cursor: pointer;
+	margin: 10px;
+}
+img {
+	width: 150px;
+	display: flex;
+}
