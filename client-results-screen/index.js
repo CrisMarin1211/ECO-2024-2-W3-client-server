@@ -1,5 +1,3 @@
-document.getElementById('fetch-button').addEventListener('click', fetchData);
-
 let timeLeft = 10; // Tiempo en segundos
 
 function startTimer() {
@@ -78,3 +76,6 @@ function renderData(data) {
 		container.innerHTML = '<p>No hay jugadores registrados aún.</p>';
 	}
 }
+
+// Iniciar la primera vez
+startTimer();
